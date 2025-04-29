@@ -9,7 +9,7 @@
 // [{1:1},{2:2}] => false
 
 
-const arrCheck = value => value.every(Array.isArray)
+const arrCheck = values => values.every(Array.isArray)
 
 console.log(arrCheck([[],[]]))
 console.log(arrCheck([[],[], {}]))
