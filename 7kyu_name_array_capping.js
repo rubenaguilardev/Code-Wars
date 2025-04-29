@@ -6,9 +6,7 @@
 
 
 function capMe(names) {
-  let lowerCaseNames = names.map(name => name.toLowerCase())
-  let capitalizedNames = lowerCaseNames.map(name => name.replace(name[0], name[0].toUpperCase()))
-  return capitalizedNames
-  }
+  return names.map(name => name[0].toUpperCase() + name.slice(1).toLowerCase()
+}
 
 
