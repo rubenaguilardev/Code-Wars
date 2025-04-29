@@ -8,11 +8,6 @@
 // Note: the digits in the resulting string should be sorted.
 
 
-function unusedDigits(...nums) {
-    const digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-    const numbers = nums.join("")
-   
-     
-     return digits.filter((digit) => !numbers.includes(digit)).join("")
-       
-   }
+arr = [3]
+
+console.log(Array.isArray(arr))
